@@ -1,0 +1,306 @@
+9.	<html>
+10.	<head>
+11.	<title><center> <h1>PROPERTY DETAILS</h1>
+12.	</center></title>
+13.	</head>
+14.	<body>
+15.	<h2>apartments</h2><br/>
+16.	<b>2 bedroom flat</b><br><img src="2.png" width="300" height="300"><br>3 bedroom flat<br><img src="3.jpg" width="300" height="300"><br>
+17.	<b>4 bedroom flat</b><br><img src="5.jpeg" width="300" height=300">
+18.	<br/>
+19.	<p><h5><i>Our available 2/3/4 bedroom apartments near gateway in vijayawada, including this spacious and comfortable apartment.<br>
+20.	These apartments has the following features:
+21.	2 Bedroom/3 bedroom/4 bedroom facilities:
+22.	Water Included
+23.	Hot Water Included
+24.	Heat Included
+25.	Wood Floorin
+26.	Furnished or Unfurnished
+27.	Second Floor
+28.	Off-Street Parking Available</i></h5>
+29.	<br>
+30.	<h2> lands</h3><br/>
+31.	<b>Oragadam  Land - 6 ground Residential land price - 3250/sq.ft Landmark Near by apollo tyres sriperumbdur road Opp to Nissanc  land on 400 ft Road Main road Near Appollo Tyres, 70 ft Frontage
+32.	
+33.	Address: Oragadam, Chennai</b><br/>
+34.	<img src="7.jpg" width="300" height="300"><br>
+35.	<br>
+36.	<b> Land -3ground Residential land price - 1250/sq.ft Landmark Near by apollo tyres, 50 ft Frontage
+37.	
+38.	Address: mgroad,banglore</b>
+39.	<br>
+40.	<img src="6.jpg" width="300" height="300"><br>
+41.	<h2>COMMERCIAL BUILDINGS</h2><br>
+42.	<img src="c1.jpg" width="300" height="300">
+43.	<br/>
+44.	<b>Plot No. 63 P T New Colony No. 2, Road No. 3, 
+45.	Hyderabad, telanganaa, India</b>
+46.	<br/>
+47.	<img src="c2.jpg" width="300" height="300"><br>
+48.	<b>Plot No. 62  New Colony No. 4, Road No. 8, 
+49.	vizag, Andhra Pradesh, India</b>
+50.	<br>
+51.	
+52.	</p>
+53.	</body>
+54.	</html>
+55.	/////////////////
+
+
+56.	Code for registration:
+57.	<html>
+58.	<head>
+59.	<style>
+60.	ul {
+61.	    list-style-type: none;
+62.	    margin: 0;
+63.	    padding: 0;
+64.	    overflow: hidden;
+65.	    background-color: #333;
+66.	}
+67.	
+68.	li {
+69.	    float: left;
+70.	}
+71.	
+72.	li a {
+73.	    display: block;
+74.	    color: white;
+75.	    text-align: center;
+76.	    padding: 14px 16px;
+77.	    text-decoration: none;
+78.	}
+79.	
+80.	li a:hover:not(.active) {
+81.	    background-color: #111;
+82.	}
+83.	
+84.	.active {
+85.	    background-color: #4CAF50;
+86.	}
+87.	
+88.	</style>
+89.		</head>
+90.		<body>
+91.							<ul class="nav">
+92.					<li ><a class="active"href="homepage.jsp"> homepage </a></li>
+93.					<li><a href="regestration.jsp"> register </a></li>
+94.					
+95.					<li><a href="images.jsp"> property images </a></li>
+96.				</ul>
+97.	<center><img src="r1.jpg"/></center>
+98.	<h1><center>real estate managment system</center></h1></center></head>
+99.	<body>
+100.	<center>
+101.	<pre>
+102.	<form method="post" action="./insertreg.jsp">
+103.	 name:             <input type="text" placeholder="Username" name="n1"/></br>
+104.	 age:              <input type="text" name="n2"><br/>
+105.	 city:             <input type="text" name="n3"/><br/>
+106.	phone number:	   <input type="text" name="n4"/><br/>
+107.	gender:              <select name="n5">
+108.	                 <option>male</option>
+109.	                 <option>female</option>
+110.	                      </select>	<br/>
+111.	
+112.	address:       <input type="text" name="n6"/><br/>
+113.	 propert type required: 	     <select name="n7">
+114.	             <option>--select --</option>
+115.				 <option> apartment </option>
+116.				 <option> office </option>
+117.				 <option> commercial</option>
+118.				 <option> farm</option>
+119.				 <option> hotel</option>
+120.				 <option> land</option>
+121.	                         <option>houses</option>
+122.				 </select><br/>
+123.	 BEDROOMS:         <select name="n8">
+124.	             <option>--select --</option>
+125.				 <option> 1</option>
+126.				 <option> 2 </option>
+127.				 <option> 3</option>
+128.				 <option> 4</option>
+129.				 <option>5</option>
+130.				 
+131.				</select><br/>
+132.	BATHROOMS
+133.	<select name="n9">
+134.	 <option>--select --</option>
+135.	 <option> 1 </option>
+136.	<option> 2 </option>
+137.	 <option> 3</option>
+138.	</select><br/>
+139.	LIVING AREA
+140.	<select name="n10">
+141.	<option>--select--</option>
+142.	<option>1</option>
+143.	<option>2</option>
+144.	<option>3</option>
+145.	<option>4</option>
+146.	</select><br/>
+147.	PARKING:
+148.	<select name="n11">
+149.	<option>--select--</option>
+150.	<option>1</option>
+151.	<option>2</option>
+152.	<option>3</option>
+153.	</select><br/>
+154.	ADDRESS/LOCATION:
+155.	<select name="n12">
+156.	<option>--select--</option>
+157.	<option>vijayawada</option>
+158.	<option>hyderabad</option>
+159.	<option>vizag</option>
+160.	<option>chennai</option>
+161.	<option>banglore</option>
+162.	</select><br/>
+163.	PROPERTY TYPE:
+164.	<select name="n13">
+165.	<option>--select--</option>
+166.	<option>rent</option>
+167.	<option>sell</option>
+168.	<option>buy</option>
+169.	</select><br/>
+170.	<center><input type="submit" value="submit"/></center>  
+171.	</center>
+172.	</form>
+173.	</pre>
+174.	</body>
+175.	</html>
+176.	
+177.	////////////////
+178.	
+179.	Login page:
+180.	<html>
+181.	<head>
+182.	<style>
+183.	body{
+184.	background-image:pink;
+185.	}
+186.	</style>
+187.	<center>
+188.	<h2>LOGIN</h2>
+189.	</center>
+190.	</head>
+191.	<body>
+192.	<center>
+193.	    <form method="post"action="./insertlogin.jsp">
+194.	<br><b>username: <input type="text" name="usrname"></b><br/><br/>
+195.	<b>password: <input type="password"name="pws"></b><br/><br/>
+196.	<b>mobile number:<input type="text"name="mobile_no"></b><br/>
+197.	<br/>
+198.	<br/>
+199.	<input type="submit"value="submit"  <a href="hompepage.jsp"> </a> >
+200.	</center><br>
+201.	</form> 
+202.	
+203.	</body>
+204.	</html>
+205.	/////////////
+206.	Registration page jsp code:
+  
+207.	<%@page import="java.sql.Statement"%>
+208.	<%@page import="java.sql.DriverManager"%>
+209.	<%@page import="java.sql.Connection"%>
+210.	<%@page contentType="text/html" pageEncoding="UTF-8"%>
+211.	<!DOCTYPE html>
+212.	<html>
+213.	    <head>
+214.	        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+215.	        <title>JSP Page Login</title>
+216.	    </head>
+217.	    <body>
+218.	        
+219.	        <%
+220.	            try{
+221.	                
+222.	                
+223.	                String n1= request.getParameter("n1");
+224.	                String n2= request.getParameter("n2");
+225.	                String n3= request.getParameter("n3");
+226.	                String n4= request.getParameter("n4");
+227.	                String n5= request.getParameter("n5");
+228.	                String n6= request.getParameter("n6");
+229.	                String n7= request.getParameter("n7");
+230.	                String n8= request.getParameter("n8");
+231.	                String n9= request.getParameter("n9");
+232.	                String n10= request.getParameter("n10");
+233.	                String n11= request.getParameter("n11");
+234.	                String n12= request.getParameter("n12");
+235.	                String n13= request.getParameter("n13");
+236.	                
+237.	                
+238.	                
+239.	                
+240.	                
+241.	                Class.forName("com.mysql.jdbc.Driver");
+242.	                
+243.	                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/padu","root","root");
+244.	                
+245.	                Statement st = con.createStatement ();
+246.	                
+247.	                st.executeUpdate("insert into regi(n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13) values('"+n1+"','"+n2+"','"+n3+"','"+n4+"','"+n5+"','"+n6+"','"+n7+"','"+n8+"','"+n9+"','"+n10+"','"+n11+"','"+n12+"','"+n13+"')");
+248.	                
+249.	                out.println("you have successfully registered");
+250.	            
+251.	                } 
+252.	            catch(Exception e){
+253.	                                
+254.	                                out.println(e);
+255.	            
+256.	            
+257.	            
+258.	            
+259.	                                }
+260.	        %>
+261.	        <a href="./homepage.jsp"> Back to main page </a>
+262.	
+263.	    </body>
+264.	</html>
+265.	
+266.	
+267.	LOGIN PAGE(JSP CODE)
+268.	<%@page import="java.sql.Statement"%>
+269.	<%@page import="java.sql.DriverManager"%>
+270.	<%@page import="java.sql.Connection"%>
+271.	<%@page contentType="text/html" pageEncoding="UTF-8"%>
+272.	<!DOCTYPE html>
+273.	<html>
+274.	    <head>
+275.	        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+276.	        <title>JSP Page Login</title>
+277.	    </head>
+278.	    <body>
+279.	        
+280.	        <%
+281.	            try{
+282.	                
+283.	                
+284.	                String usrname= request.getParameter("usrname");
+285.	                String pws = request.getParameter("pws");
+286.	                String mobile_no = request.getParameter("mobile_no");
+287.	                Class.forName("com.mysql.jdbc.Driver");
+288.	                
+289.	                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/padu","root","root");
+290.	                
+291.	                Statement st = con.createStatement ();
+292.	                
+293.	                st.executeUpdate("insert into login(usrname,pws,mobile_no) values('"+usrname+"','"+pws+"','"+mobile_no+"')");
+294.	                
+295.	                out.println("SUCCESSFULLY LOGGED IN");
+296.	            
+297.	                } 
+298.	            catch(Exception e){
+299.	                                
+300.	                                out.println(e);
+301.	            
+302.	            
+303.	            
+304.	            
+305.	                                }
+306.	        %>
+307.	        <a href="./homepage.jsp"> HOME PAGE </a>
+308.	
+309.	    </body>
+310.	</html>
+311.	
